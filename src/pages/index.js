@@ -11,11 +11,12 @@ import Layout from "../components/layout";
 import RecentPosts from "../components/recent-posts";
 import SEO from "../components/seo";
 import { indexMenuLinks } from "../components/_config/menu-links";
+import { getDynamicTagLine } from "../components/utils";
 
 const Index = ({ data }) => {
   const heroData = {
     author: data.site.siteMetadata.author,
-    tagline: data.hero.frontmatter.tagline,
+    tagline: getDynamicTagLine(),
     description: data.hero.html,
     introduction: data.hero.frontmatter.introduction,
     ctaLabel: data.hero.frontmatter.cta_label,
@@ -25,6 +26,7 @@ const Index = ({ data }) => {
   return (
     <Layout menuLinks={indexMenuLinks}>
       <SEO title="Home" />
+      {/* {getDynamicTagLine()} */}
       <Hero data={heroData} />
       <About data={data.about} />
       <CardGrid
