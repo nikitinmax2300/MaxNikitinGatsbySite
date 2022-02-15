@@ -27,12 +27,10 @@ const StyledHomeLink = styled(Link)`
   text-decoration: none;
 `;
 const StyledLogo = styled(Logo)`
-  width: var(--header-height);
-  height: var(--header-height);
   fill: var(--title-color);
 
   &:hover path.level-2 {
-    fill: var(--primary-color);
+    color: var(--primary-color);
   }
 `;
 const StyledNav = styled.nav`
