@@ -3,7 +3,6 @@ import Img from "gatsby-image";
 import PropTypes from "prop-types";
 import React from "react";
 import Icon from "./icon";
-import TextLink from "./links/text-link";
 import TechList from "./tech-list";
 import { mq } from "./_shared/media";
 import { StyledContentLink } from "./_shared/styled-content-link";
@@ -146,10 +145,9 @@ const FeaturedProjects = ({ featured }) => {
 
   return (
     <StyledSection id="projects">
-      <StyledH1>Featured Projects</StyledH1>
+      <StyledH1>Recent Experience</StyledH1>
       {featuredProjects}
       <StyledArchiveContainer>
-        <TextLink label="View More Projects" link="/projects" />
       </StyledArchiveContainer>
     </StyledSection>
   );

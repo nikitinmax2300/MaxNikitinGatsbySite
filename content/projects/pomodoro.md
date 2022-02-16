@@ -1,10 +1,10 @@
 ---
 featured: true
 date: "2019-12-15"
-title: "Pomodoro"
-cover_image: "./images/ocean.jpg"
-demo_link: "https://knochenmark.github.io/pomodoro/"
-techs: ["Javascript", "Html5", "Css3", "React"]
+title: "Tianjin University of Science & Technology"
+cover_image: "./images/tustt.jpg"
+demo_link: "http://en.tust.edu.cn"
+techs: ["Javascript", "Alibaba", "Auth", "PHP", "AWS"]
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Forefront website of the university and internal educational platform for students to interact with the professors, complete assignments and engage in the classroom.

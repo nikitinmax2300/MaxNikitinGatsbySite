@@ -1,9 +1,7 @@
 ---
-phone: "+49 1234 5678910"
-email: "maxmustermann@gmail.com"
-address: "Friesenstr. 123, Berlin, Germany"
+phone: "+1 347 859 5824"
+email: "nikitinmax2300@gmail.com"
+address: "7 Navy Pier Ct., Staten Island, NY, 10304"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy [Link to issues](https://github.com/Knochenmark/gatsby-starter-level-2/issues) tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.
+Always open to game-changing opportunities and excited to face new challenges. Hit me up!
