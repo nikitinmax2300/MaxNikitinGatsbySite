@@ -30,11 +30,11 @@ export const StyledTextLink = styled(Link)`
   }
 `;
 
-const TextLink = ({ label, link }) => {
+const TextLink = ({ label, link, isPostFromMedium}) => {
   return (
     <React.Fragment>
       {label && link && (
-        <StyledTextLink to={link ? link : "#"}>
+        <StyledTextLink target={isPostFromMedium ? "_blank" : ""} rel={isPostFromMedium ? "noopener noreferrer": ""} to={link ? link : "#"}>
           {label}
           <Icon icon="arrow-right" />
         </StyledTextLink>

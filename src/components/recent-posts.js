@@ -1,8 +1,9 @@
+// eslint-disable-next-line no-unused-vars
 import styled from "@emotion/styled";
 import { Link } from "gatsby";
 import Img from "gatsby-image";
 import PropTypes from "prop-types";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import TextLink from "./links/text-link";
 import TagList from "./tag-list";
 import { mq } from "./_shared/media";
@@ -72,7 +73,26 @@ const StyledPostText = styled(StyledTextSection)`
 `;
 
 const RecentPosts = ({ data }) => {
-  const recentPosts = data.map((post) => {
+
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@samanthaming')
+      .then(resp => resp.json())
+      .then(posts => setPosts(posts))
+  }, [])
+
+
+  const isPostFromMedium = (posts.status === "ok");
+  let recentPosts;
+  console.log(posts)
+  console.log(data)
+  console.log(isPostFromMedium)
+
+
+
+if (!isPostFromMedium) {
+  recentPosts = data.map((post) => {
     const { title, tags, description, date } = post.node.frontmatter;
     const coverImage = post.node.frontmatter.cover_image
       ? post.node.frontmatter.cover_image.childImageSharp.fluid
@@ -84,6 +104,7 @@ const RecentPosts = ({ data }) => {
       month: "short",
     });
     const day = new Date(date).toLocaleDateString("en-EN", { day: "2-digit" });
+
 
     return (
       <StyledPostContainer key={title}>
@@ -107,12 +128,49 @@ const RecentPosts = ({ data }) => {
     );
   });
 
+} else {
+  recentPosts = posts.slice(0, 4).items.map((post) => {
+
+    const { title, categories, thumbnail, pubDate, link, description} = post;
+
+    const month = new Date(pubDate).toLocaleDateString("en-EN", {
+      month: "short",
+    });
+    const day = new Date(pubDate).toLocaleDateString("en-EN", { day: "2-digit" });
+
+
+    return (
+      <StyledPostContainer key={title}>
+        <StyledDateOverlay>
+          <span>{month}</span>
+          <span>{day}</span>
+        </StyledDateOverlay>
+        <Link to={link} aria-label={`recent post ${title}`}>
+          <StyledImageContainer>
+            {thumbnail && <Img fluid={thumbnail} />}
+          </StyledImageContainer>
+        </Link>
+        <TagList tags={categories} />
+        <StyledTitleLink to={link}>
+          <StyledH2>{title}</StyledH2>
+        </StyledTitleLink>
+        <StyledPostText>
+          <p>{description}</p>
+        </StyledPostText>
+      </StyledPostContainer>
+    );
+  });
+
+
+
+
+}
   return (
     <StyledSection id="blog">
-      <StyledH1>Latest Blog Posts</StyledH1>
+      <StyledH1>Good reads</StyledH1>
       <StyledPostsContainer>{recentPosts}</StyledPostsContainer>
       <StyledBlogLinkContainer>
-        <TextLink label="View All Posts" link="/blog" />
+        <TextLink label="View All Posts" link={isPostFromMedium ? "https://medium.com/tag/software-engineering" : "/blog"} isPostFromMedium />
       </StyledBlogLinkContainer>
     </StyledSection>
   );
