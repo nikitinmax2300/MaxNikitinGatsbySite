@@ -1,18 +1,11 @@
 ---
-title: My morning routine
-date: 2020-03-31
+title: 17 Killer Websites for Web Developers
+date: 2021-09-13
 published: true
-tags: ["Breakfast", "Lifehack", "Markdown"]
+tags: ["Productivity", "Lifehack", "Markdown"]
 series: false
-cover_image: ./images/breakfast.jpg
+cover_image: ./images/third.jpg
 canonical_url: false
-description: "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions."
+description: "Keeping websites handy can be the ultimate productivity hack, Here are some of the best websites I use to make my life easier.
+Let’s take a look at them one by one."
 ---
-
-Readability, however, is emphasized above all else. A Markdown-formatted
-document should be publishable as-is, as plain text, without looking
-like it's been marked up with tags or formatting instructions.
-
-While Markdown's syntax has been influenced by several existing text-to-HTML filters -- including [Setext](http://docutils.sourceforge.net/mirror/setext.html), [atx](http://www.aaronsw.com/2002/atx/), [Textile](http://textism.com/tools/textile/), [reStructuredText](http://docutils.sourceforge.net/rst.html),
-[Grutatext](http://www.triptico.com/software/grutatxt.html), and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of
-inspiration for Markdown's syntax is the format of plain text email.

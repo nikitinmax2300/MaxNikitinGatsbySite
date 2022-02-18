@@ -29,7 +29,7 @@ const TagList = ({ tags }) => {
     <StyledTagContainer>
       {tags.map((tag) => (
         <StyledTag key={tag}>
-          <StyledTagLink to={`/tags/${tag}/`}>#{tag}</StyledTagLink>
+          <StyledTagLink>#{tag}</StyledTagLink>
         </StyledTag>
       ))}
     </StyledTagContainer>

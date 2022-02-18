@@ -1,15 +1,9 @@
 ---
-date: 2020-05-31
-title: "100 Beers you must try"
-tags: ["Drinks", "Beer", "Craft"]
+date: 2021-04-12
+title: "Don’t Use If-Else and Switch in JavaScript, Use Object Literals"
+tags: ["testing", javascript", "vanilajs", "front-end-development"]
 published: true
-cover_image: ./images/beer.jpg
+cover_image: ./images/first.jpg
 canonical_url: false
-description: "Here is my personal list for the 100 beers you should try! At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren."
+description: "Writing complex conditionals in JavaScript has always had the potential to create some pretty messy code. Long lists of if/else statements or switch cases can get bloated quickly."
 ---
-
-# Beers
-
-1. Some beer
-2. Another beer
-3. Some Craft Beer

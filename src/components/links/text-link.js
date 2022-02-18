@@ -34,7 +34,7 @@ const TextLink = ({ label, link, isPostFromMedium}) => {
   return (
     <React.Fragment>
       {label && link && (
-        <StyledTextLink target={isPostFromMedium ? "_blank" : ""} rel={isPostFromMedium ? "noopener noreferrer": ""} to={link ? link : "#"}>
+        <StyledTextLink target="_blank" rel="noopener noreferrer" to={link ? link : "#"}>
           {label}
           <Icon icon="arrow-right" />
         </StyledTextLink>

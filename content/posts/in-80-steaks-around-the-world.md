@@ -1,18 +1,9 @@
 ---
-date: 2020-05-31
-title: "In 80 Steaks around the world"
-tags: ["Food", "Meat", "Steak", "Dish"]
+date: 2020-10-07
+title: "Testing Non-Exported Functions in JavaScript"
+tags: ["software-engineer", "frontend-developer", "developer", "motivation"]
 published: true
-cover_image: ./images/steak.jpg
+cover_image: ./images/second.jpg
 canonical_url: false
-description: "The glorius journey to find the 80 best steaks around the world. Find out more about our travel, the steaks we feast and other useful tips for grill enthusiasts"
+description: "Recently, I finally integrated unit testing into my startup project. I’ve settled with Jest, I’ll speak more about this in a separate journal entry. While writing my test, I ran into a bit of a dilemma of trying to write unit tests for non-exported functions 😖"
 ---
-
-# Destinations
-
-1. Italy
-2. Germany
-3. Spain
-4. France
-5. Argentina
-6. etc.
