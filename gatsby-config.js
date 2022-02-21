@@ -14,6 +14,7 @@ module.exports = {
     `gatsby-plugin-stylus`,
     `gatsby-plugin-react-helmet`,
     `typewriter-effect`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
