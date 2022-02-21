@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/gatsby-starter-level-2",
   siteMetadata: {
-    title: "Level 2",
+    title: "maxnikitin.dev",
     titleTemplate: "%s · Level 2",
     image: "/images/logo.png",
     author: "Max Nikitin",
@@ -13,6 +13,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-stylus`,
     `gatsby-plugin-react-helmet`,
+    `typewriter-effect`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -98,6 +99,5 @@ module.exports = {
         },
       },
     },
-    `typewriter-effect`
   ],
 };
