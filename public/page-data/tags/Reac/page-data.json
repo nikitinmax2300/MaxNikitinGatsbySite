@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/Reac/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/books/"},"frontmatter":{"title":"5 Methods to Persisting State Between Page Reloads in React"}}}]}},"pageContext":{"tag":"Reac"}},"staticQueryHashes":["1734433022"]}
