@@ -80,7 +80,7 @@ const RecentPosts = ({ data }) => {
       ? post.node.frontmatter.cover_image.childImageSharp.fluid
       : null;
 
-    const links = ["https://medium.com/javascript-in-plain-english/17-killer-websites-for-web-developers-13e1e30345b8", "https://medium.com/better-programming/dont-use-if-else-and-switch-in-javascript-use-object-literals-c54578566ba0", "https://medium.com/javascript-in-plain-english/testing-non-exported-functions-in-javascript-8644966c52e6"]
+    const links = ["https://medium.com/javascript-in-plain-english/17-killer-websites-for-web-developers-13e1e30345b8", "https://medium.com/bitsrc/5-methods-to-persisting-state-between-page-reloads-in-react-8fc9abd3fa2f", "https://medium.com/better-programming/dont-use-if-else-and-switch-in-javascript-use-object-literals-c54578566ba0", "https://medium.com/javascript-in-plain-english/testing-non-exported-functions-in-javascript-8644966c52e6"]
 
     const month = new Date(date).toLocaleDateString("en-EN", {
       month: "short",

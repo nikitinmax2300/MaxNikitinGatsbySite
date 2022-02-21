@@ -1,17 +1,10 @@
 ---
-date: 2020-02-12
-title: "7 Scary Things Web Devs write In Their Journals"
-tags: ["Webdevelopment", "Writing", "Stuff"]
+date: 2021-04-21
+title: "5 Methods to Persisting State Between Page Reloads in React"
+tags: ["Webdevelopment", "React", "Redux"]
 published: true
-cover_image: ./images/book.jpg
+cover_image: ./images/react.jpg
 canonical_url: false
-description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+description: "Learn different ways of persisting React state between page reloads."
 ---
 
-# Webdev Journals
-
-Heres the list
-
-1. 0
-2. 1
-3. Terrible Binary jokes
