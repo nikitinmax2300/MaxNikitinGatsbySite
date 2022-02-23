@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/javascript/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/100-beers/"},"frontmatter":{"title":"Don’t Use If-Else and Switch in JavaScript, Use Object Literals"}}}]}},"pageContext":{"tag":"javascript"}},"staticQueryHashes":["1734433022"]}
