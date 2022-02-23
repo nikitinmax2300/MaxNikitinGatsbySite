@@ -23,7 +23,7 @@ const Index = ({ data }) => {
 
   return (
     <Layout menuLinks={indexMenuLinks}>
-      <SEO title="Home" />
+      <SEO title="Max Nikitin" />
       <Hero data={heroData} />
       <About data={data.about} />
       <FeaturedProjects featured={data.featuredProjects.nodes} />

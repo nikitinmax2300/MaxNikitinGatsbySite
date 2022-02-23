@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/gatsby-starter-level-2",
   siteMetadata: {
     title: "maxnikitin.dev",
-    titleTemplate: "%s · Level 2",
+    titleTemplate: "%s ",
     image: "/images/logo.png",
     author: "Max Nikitin",
     description:
