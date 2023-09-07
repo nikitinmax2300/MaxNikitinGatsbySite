@@ -1,7 +1,7 @@
 ---
 title: "A passionate full stack developer from New York!"
 about_image: "./me.jpg"
-techs: ["Gatsby", "Javascript", "React", "GraphQL", "Node", "TypeScript", "Node", "AWS", "Express", "Jest","Enzyme", "Cypress", "CI/CD", "SQL/NoSQL"]
+techs: ["Gatsby", "Javascript", "React", "GraphQL", "Node", "TypeScript", "Node", "AWS", "Express", "Jest","Enzyme", "Cypress", "CI/CD", "SQL/NoSQL", "Go"]
 ---
 
 I'm Software Engineer with 7+ years of experience specializing in JS and primarily building projects in React and Node. Co-creator of formaBull, a next gen developer tool for form creation. Contributor to the open-source community and crypto enthusiast. Presenter on Testing Frameworks at SingleSprout Speaker Series 2021.
